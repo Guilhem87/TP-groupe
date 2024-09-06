@@ -6,11 +6,44 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
 
 main {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+iframe {
+    width: 110vw;
+    height: 70vh;
+}
+
+p {
+    padding: 30px;
+}
+
+#logo {
+    width: 10vw;
+    height: 20vh;
+}
+
+h1 {
+    width: 90vw;
+    text-align: center;
+    font-size: 5em;
+}
+
+menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
